@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Clothing shop</title>
+    <link rel="stylesheet" href="menu.css" />
+</head>
+<body>
+    <div id="menu" class="hidden">
+        <nav id="rail" class="ui-panel">
+            <div id="logo" class="logo hidden"><img src="" alt="" /></div>
+            <div id="sections"></div>
+            <div class="actions">
+                <button id="btn-quit" class="action quit">
+                    <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" /></svg><span data-t="quit"></span>
+                </button>
+                <button id="btn-buy-one" class="action buy-one">
+                    <svg viewBox="0 0 24 24"><path d="M5.5 8h13l-1.2 12.5H6.7zM9 8V6.5a3 3 0 0 1 6 0V8" /></svg><span data-t="buy_one"></span><b id="buy-one-price"></b>
+                </button>
+                <button id="btn-reset" class="action reset">
+                    <svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" /></svg><span data-t="reset"></span>
+                </button>
+                <button id="btn-pay" class="action pay">
+                    <svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg><span data-t="pay"></span><b id="pay-total"></b>
+                </button>
+            </div>
+        </nav>
+        <section id="panel" class="ui-panel"></section>
+        <div id="help" class="ui-panel"></div>
+    </div>
+    <div id="modal" class="hidden">
+        <div class="box">
+            <h2 id="modal-title"></h2>
+            <p id="modal-text"></p>
+            <div class="buttons">
+                <button id="modal-no"></button>
+                <button id="modal-yes"></button>
+            </div>
+        </div>
+    </div>
+    <div id="wardrobe" class="hidden">
+        <div class="box">
+            <h1></h1>
+            <p class="hint"></p>
+            <div class="list"></div>
+            <button id="wardrobe-close"></button>
+        </div>
+    </div>
+    <div id="toast" class="hidden"></div>
+    <script src="menu.js"></script>
+</body>
+</html>
