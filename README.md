@@ -17,9 +17,11 @@ On le porte, on l'enlève, on le donne, on le revend. Standalone, QBCore, Qbox o
 [![Framework](https://img.shields.io/badge/framework-standalone%20%7C%20QBCore%20%7C%20Qbox%20%7C%20ESX-6e7681)](#-installation)
 [![Licence](https://img.shields.io/badge/licence-MIT-3fb950)](LICENSE)
 [![Téléchargements](https://img.shields.io/github/downloads/ma3iich/pure_clothing/total?label=T%C3%A9l%C3%A9chargements&color=2ea44f)](https://github.com/ma3iich/pure_clothing/releases)
+[![YouTube](https://img.shields.io/badge/YouTube-Tuto%20vid%C3%A9o-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=qSAtUIHN1zw)
 [![Discord](https://img.shields.io/badge/Discord-Aide-5865F2?logo=discord&logoColor=white)](https://discord.gg/C4jc8k3dD9)
 
 **[⬇️ Télécharger](https://github.com/ma3iich/pure_clothing/releases/latest)** &nbsp;·&nbsp;
+**[🎬 Tuto vidéo](https://www.youtube.com/watch?v=qSAtUIHN1zw)** &nbsp;·&nbsp;
 **[📦 Installation](#-installation)** &nbsp;·&nbsp;
 **[⚙️ Configuration](#%EF%B8%8F-configuration)** &nbsp;·&nbsp;
 **[🧵 Packs de vêtements](#-packs-de-vêtements-addons)** &nbsp;·&nbsp;
@@ -227,9 +229,11 @@ Wear it, take it off, give it, sell it. Standalone, QBCore, Qbox or ESX · pure_
 [![Framework](https://img.shields.io/badge/framework-standalone%20%7C%20QBCore%20%7C%20Qbox%20%7C%20ESX-6e7681)](#-installation-1)
 [![License](https://img.shields.io/badge/license-MIT-3fb950)](LICENSE)
 [![Downloads](https://img.shields.io/github/downloads/ma3iich/pure_clothing/total?label=Downloads&color=2ea44f)](https://github.com/ma3iich/pure_clothing/releases)
+[![YouTube](https://img.shields.io/badge/YouTube-Video%20tutorial-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=qSAtUIHN1zw)
 [![Discord](https://img.shields.io/badge/Discord-Help-5865F2?logo=discord&logoColor=white)](https://discord.gg/C4jc8k3dD9)
 
 **[⬇️ Download](https://github.com/ma3iich/pure_clothing/releases/latest)** &nbsp;·&nbsp;
+**[🎬 Video tutorial](https://www.youtube.com/watch?v=qSAtUIHN1zw)** &nbsp;·&nbsp;
 **[📦 Installation](#-installation-1)** &nbsp;·&nbsp;
 **[⚙️ Configuration](#%EF%B8%8F-configuration-1)** &nbsp;·&nbsp;
 **[🧵 Clothing packs](#-clothing-packs-add-ons)** &nbsp;·&nbsp;
