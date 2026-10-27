@@ -40,8 +40,8 @@ On le porte, on l'enlève, on le donne, on le revend. Standalone, QBCore, Qbox o
     <th width="50%">🎒 Dans l'inventaire</th>
   </tr>
   <tr>
-    <td><!-- video:2-clothing-shop --></td>
-    <td><!-- video:3-inventory --></td>
+    <td><video src="https://github.com/user-attachments/assets/e95dfdb6-bff0-4cbf-9ebb-d3bd69cc4ea9" width="100%" controls muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/cad7cc22-27f1-49f7-b589-40513934cca6" width="100%" controls muted></video></td>
   </tr>
 </table>
 
@@ -250,8 +250,8 @@ Wear it, take it off, give it, sell it. Standalone, QBCore, Qbox or ESX · pure_
     <th width="50%">🎒 In the inventory</th>
   </tr>
   <tr>
-    <td><!-- video:2-clothing-shop --></td>
-    <td><!-- video:3-inventory --></td>
+    <td><video src="https://github.com/user-attachments/assets/e95dfdb6-bff0-4cbf-9ebb-d3bd69cc4ea9" width="100%" controls muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/cad7cc22-27f1-49f7-b589-40513934cca6" width="100%" controls muted></video></td>
   </tr>
 </table>
 
