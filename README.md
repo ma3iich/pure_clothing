@@ -112,7 +112,21 @@ Français et English (`locales/`).
    },
    ```
    Clic droit sur un vêtement > **Utiliser** = le porter. Commande **`/wardrobe`** (ou une touche dans les paramètres FiveM) = la garde-robe, pour enlever une pièce.
-5. **Coupe les magasins de vêtements gratuits** de ton script d'apparence (illenium-appearance, qb-clothing…) : garde la création du personnage, le coiffeur et le tatoueur. Sinon un joueur s'habille gratuitement là-bas et revend les pièces.
+5. **Coupe les magasins de vêtements gratuits** de ton script d'apparence (illenium-appearance, qb-clothing…) : garde la création du personnage, le coiffeur et le tatoueur. Sinon un joueur s'habille gratuitement là-bas et revend les pièces. N'arrête pas ce script : Pure Clothing a besoin de lui pour remettre la tenue de base à la connexion.
+   - **illenium-appearance :** dans `illenium-appearance/shared/config.lua`, partie `Config.Stores`, supprime chaque bloc qui contient `type = "clothing"`, de son `{` jusqu'à son `},`. Garde les blocs `barber`, `tattoo` et `surgeon`. Le vendeur et le point sur la carte de ces magasins disparaissent avec.
+     ```lua
+     Config.Stores = {
+         {                      -- supprimer à partir d'ici...
+             type = "clothing",
+             coords = vector4(1693.2, 4828.11, 42.07, 188.66),
+             ...
+         },                     -- ...jusqu'ici
+         ...
+         {
+             type = "barber",   -- garder
+     ```
+   - **qb-clothing :** dans `qb-clothing/config.lua`, partie `Config.Stores`, supprime chaque ligne qui contient `shopType = 'clothing'`. Garde les lignes `shopType = 'barber'`.
+   - Redémarre ensuite le serveur.
 6. **QBCore, menu radial :** la partie « Vêtements » du menu radial déshabille sans passer par l'inventaire. Le dossier [`qb-radialmenu/`](qb-radialmenu/) contient la config de qb-radialmenu sans cette partie (mode d'emploi dedans). Avec ox_inventory, Pure Clothing gère aussi ce menu (pièce retirée = objet, pièce remise = objet repris).
 7. Démarre le serveur : la table `pure_clothing_worn` se crée toute seule. Ouvre `config.lua` pour les magasins, les prix et le rendu.
 
@@ -324,7 +338,21 @@ English and Français (`locales/`).
    },
    ```
    Right click on a piece > **Use** = wear it. Command **`/wardrobe`** (or a key in the FiveM settings) = the wardrobe, to take a piece off.
-5. **Disable the free clothing shops** of your appearance script (illenium-appearance, qb-clothing...): keep the character creation, the barber and the tattoo shop. Otherwise a player dresses for free there and sells the pieces.
+5. **Disable the free clothing shops** of your appearance script (illenium-appearance, qb-clothing...): keep the character creation, the barber and the tattoo shop. Otherwise a player dresses for free there and sells the pieces. Do not stop that script: Pure Clothing needs it to put the base outfit back at connection.
+   - **illenium-appearance:** in `illenium-appearance/shared/config.lua`, `Config.Stores` part, delete every block that holds `type = "clothing"`, from its `{` to its `},`. Keep the `barber`, `tattoo` and `surgeon` blocks. The shopkeeper and the map blip of those shops go away with them.
+     ```lua
+     Config.Stores = {
+         {                      -- delete from here...
+             type = "clothing",
+             coords = vector4(1693.2, 4828.11, 42.07, 188.66),
+             ...
+         },                     -- ...to here
+         ...
+         {
+             type = "barber",   -- keep
+     ```
+   - **qb-clothing:** in `qb-clothing/config.lua`, `Config.Stores` part, delete every line that holds `shopType = 'clothing'`. Keep the `shopType = 'barber'` lines.
+   - Then restart the server.
 6. **QBCore, radial menu:** the "Clothing" part of the radial menu undresses without the inventory. The [`qb-radialmenu/`](qb-radialmenu/) folder holds the qb-radialmenu config without that part (instructions inside). With ox_inventory, Pure Clothing handles that menu too (piece taken off = item, piece put back = item used).
 7. Start the server: the `pure_clothing_worn` table is created by itself. Open `config.lua` for the shops, the prices and the look.
 
